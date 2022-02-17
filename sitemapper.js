@@ -1,7 +1,11 @@
 const SitemapGenerator = require('sitemap-generator');
+const args = process.argv.slice(2);
+const devSiteUrl = args[0];
+
+console.log(`devSiteUrl is ${devSiteUrl}`);
 
 // create generator
-const generator = SitemapGenerator('http://psb29112021.dev.cogplatform.co.uk/', {
+const generator = SitemapGenerator(`${devSiteUrl}`, {
   stripQuerystring: true,
 });
 

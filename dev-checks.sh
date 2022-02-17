@@ -16,14 +16,15 @@
 ###############################################################
 #INSTRUCTIONS TO RUN SCRIPT : END
 ###############################################################
+echo "Please paste in the full root url for the dev site you're working e.g http://psb29112021.dev.cogplatform.co.uk/ on then press enter"
+read devSiteUrl
+# Run Node Script First
+Node sitemapper.js "$devSiteUrl"
 
-fileOfUrls="$1"
-# liveSiteUrl=${2//\//\\\/}
-# devSiteUrl=${3//\//\\\/}
+fileOfUrls="sitemap.xml"
 tempEditFile=temp_edit.txt
 reportFile=dev_checks_report.html
 
-# sed -i "s/$liveSiteUrl/$devSiteUrl/" "$fileOfUrls"
 cat "$fileOfUrls" | pup 'text{}' | sed -r '/^\s*$/d' | sed -n '/^http*/p' >"$tempEditFile"
 
 mapfile -t devUrls <"$tempEditFile"
