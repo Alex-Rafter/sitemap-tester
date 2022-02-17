@@ -1,27 +1,26 @@
-const SitemapGenerator = require('sitemap-generator');
-const args = process.argv.slice(2);
-const devSiteUrl = args[0];
+const SitemapGenerator = require('sitemap-generator')
+const args = process.argv.slice(2)
+const devSiteUrl = args[0]
 
-console.log(`devSiteUrl is ${devSiteUrl}`);
+console.log(`devSiteUrl is ${devSiteUrl}`)
 
 // create generator
 const generator = SitemapGenerator(`${devSiteUrl}`, {
-  stripQuerystring: true,
-});
+  stripQuerystring: true
+})
 
-const crawler = generator.getCrawler();
-crawler.respectRobotsTxt = false;
+const crawler = generator.getCrawler()
+crawler.respectRobotsTxt = false
 
 generator.on('ignore', (url) => {
-  console.log(`Ignored URL: ${url}`);
+  console.log(`Ignored URL: ${url}`)
   // log ignored url
-});
-
+})
 
 // register event listeners
 generator.on('done', () => {
   // sitemaps created
-});
+})
 
 // start the crawler
-generator.start();
+generator.start()
