@@ -1,21 +1,5 @@
 #!/usr/bin/env bash
 
-###############################################################
-#INSTRUCTIONS TO RUN SCRIPT : START
-###############################################################
-
-# 1a: Make sure the first argument to script is the file of urls
-# (set to work with .xml in current prototype)
-
-# 1b: Make sure that file is in the same directory as this script
-
-# 2: Run the script with the live site url as second argument,
-# and the dev site url as third argument e.g
-# e.g bash dev-checks.sh example-sitemap.xml https://www.dmkeith.com/ http://dmkeith.dev.cogplatform.co.uk/
-
-###############################################################
-#INSTRUCTIONS TO RUN SCRIPT : END
-###############################################################
 echo "Please paste in the full root url for the dev site you're working e.g http://psb29112021.dev.cogplatform.co.uk/ on then press enter"
 read devSiteUrl
 # Run Node Script First
