@@ -3,3 +3,8 @@ node_modules/
 
 #My test stuff
 old/
+
+# Auto generated files
+dev-checks.json
+sitemap.xml
+tmp-1.html
