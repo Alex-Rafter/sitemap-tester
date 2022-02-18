@@ -17,7 +17,15 @@ fileOfUrls="sitemap.xml"
 tempEditFile=temp_edit.txt
 
 cat "$fileOfUrls" | pup 'text{}' | sed -r '/^\s*$/d' | sed -n '/^http*/p' >"$tempEditFile"
+echo '[]' > dev-checks.json
 
-node c.js "$tempEditFile"
+mapfile -t devUrls <"$tempEditFile"
 
-# rm "$tempEditFile"
+for url in "${devUrls[@]}"; do
+    curl -s "$url" > tmp-1.html
+    node c.js tmp-1.html "$url"
+done
+
+
+rm "$tempEditFile"
+
