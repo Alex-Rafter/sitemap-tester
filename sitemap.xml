@@ -34,9 +34,6 @@
     <loc>http://psb29112021.dev.cogplatform.co.uk/offers/used-car-offers/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/motability/</loc>
-  </url>
-  <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/offers/business/</loc>
   </url>
   <url>
@@ -44,6 +41,9 @@
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/servicing/service-booking/step-1/</loc>
+  </url>
+  <url>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/motability/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/contact-us/</loc>
@@ -76,46 +76,46 @@
     <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-mitsubishi-mirage-4-hatchback-white-manual-petrol/id-41278/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-subaru-forester-e-boxer-xe-premium-estate-blue-cvt-hybrid/id-8465/</loc>
-  </url>
-  <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/sitemap.aspx</loc>
-  </url>
-  <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-subaru-levorg-gt-estate-blue-cvt-petrol/id-14335/</loc>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/locations/8550/poole-subaru/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-mitsubishi-mirage-3-hatchback-white-manual-petrol/id-20553/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/terms-conditions/</loc>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-subaru-levorg-gt-estate-blue-cvt-petrol/id-14335/</loc>
+  </url>
+  <url>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/sitemap.aspx</loc>
+  </url>
+  <url>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-subaru-forester-e-boxer-xe-premium-estate-blue-cvt-hybrid/id-8465/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/cookies/</loc>
   </url>
   <url>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/terms-conditions/</loc>
+  </url>
+  <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/privacy-policy/</loc>
+  </url>
+  <url>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/subaru-xv/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/used-car-details/used-mitsubishi-outlander-phev-juro-estate-black-cvt-electric/id-15026/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/locations/8550/poole-subaru/</loc>
-  </url>
-  <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/modern-slavery/</loc>
-  </url>
-  <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/forester-winter-offer/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/offers/template-offer-3/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/template-offer-4/</loc>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/forester-winter-offer/</loc>
   </url>
   <url>
-    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/subaru-xv/</loc>
+    <loc>http://psb29112021.dev.cogplatform.co.uk/offers/template-offer-4/</loc>
   </url>
   <url>
     <loc>http://psb29112021.dev.cogplatform.co.uk/offers/template-offer-5/</loc>
