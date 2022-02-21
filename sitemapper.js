@@ -1,9 +1,8 @@
 const SitemapGenerator = require('sitemap-generator')
 const args = process.argv.slice(2)
 const devSiteUrl = args[0]
-
-console.log(`devSiteUrl is ${devSiteUrl}`)
-
+const spacer = '------------------------------------------------------------'
+console.log(`\n${spacer}\nScript is now running using devSiteUrl : ${devSiteUrl}\nThis will take a few minutes to run while it hits each dev site url.\n${spacer}\n\n`)
 // create generator
 const generator = SitemapGenerator(`${devSiteUrl}`, {
   stripQuerystring: true
