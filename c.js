@@ -38,7 +38,7 @@ $('meta').each((index, item) => {
 // Conditionals
 if (meta.length > 0) obj.meta = meta
 if (images.length > 0) obj.images = images
-if (!meta.length > 0 || !images.length > 0) delete obj.url
+if (!meta.length > 0 && !images.length > 0) delete obj.url
 
 if (meta.length > 0 || images.length > 0) {
   const json = JSON.parse(shell.cat('dev-checks.json'))
