@@ -30,3 +30,5 @@ done
 rm "$tempEditFile" tmp-1.html
 
 node.exe pull.js > report.txt
+
+echo "Checks complete. Report is in report.txt, and data is in dev-checks.json"
