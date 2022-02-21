@@ -11,7 +11,7 @@
 echo "Please paste in the full root url for the dev site you're working e.g http://psb29112021.dev.cogplatform.co.uk/ on then press enter"
 read devSiteUrl
 # Run Node Script First
-Node sitemapper.js "$devSiteUrl"
+node sitemapper.js "$devSiteUrl"
 
 fileOfUrls="sitemap.xml"
 tempEditFile=temp_edit.txt
@@ -27,5 +27,6 @@ for url in "${devUrls[@]}"; do
 done
 
 
-rm "$tempEditFile"
+rm "$tempEditFile" tmp-1.html
 
+node.exe pull.js > report.txt
